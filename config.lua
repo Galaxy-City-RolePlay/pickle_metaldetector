@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Language = "en"
+Config.Language = "de"
 
 Config.Debug = true
 
@@ -10,13 +10,24 @@ Config.IgnoreGroups = false -- Doesn't scan people who can see scan results.
 
 Config.ScannerLocations = {
     {
-        location = vec3(439.7059, -982.7385, 29.6896),
-        heading = 86.5372,
+        location = vec3(-401.28, -351.4, 31.4),
+        heading = 165.6,
         hideObject = false, -- Don't show the scanner prop (Useful for scanners already on the map).
-    }
+    },
+    {
+        location = vec3(-400.68, -324.2, 31.4),
+        heading = 136.04,
+        hideObject = false, -- Don't show the scanner prop (Useful for scanners already on the map).
+    },
+    {
+        location = vec3(-389.24, -331.6, 31.4),
+        heading = 238.2,
+        hideObject = false, -- Don't show the scanner prop (Useful for scanners already on the map).
+    },
 }
 
 Config.MetalItems = { -- List of Detected Items
+  
     "weapon_dagger",
     "weapon_bat",
     "weapon_bottle",
@@ -112,6 +123,55 @@ Config.MetalItems = { -- List of Detected Items
     "weapon_fireextinguisher",
     "weapon_parachute",
     "weapon_hazardcan",
+    'weapon_machete2',
+    'weapon_elecknuckle',
+    'weapon_m48',
+    'weapon_sledgehammer',
+    'weapon_karambit',
+    'weapon_katana',
+    'weapon_keyboard',
+    'weapon_m1911',
+    'weapon_m4',
+    'weapon_microsmg2',
+    'weapon_microsmg3',
+    'weapon_browing',
+    'weapon_glock18c',
+    'weapon_glock19gen4',
+    'weapon_glock20',
+    'weapon_glock17',
+    'weapon_glock22',
+    'weapon_shiv',
+    'weapon_deagle',
+    'weapon_fnx45',
+    'weapon_mac10',
+    'weapon_pmxfm',
+    'weapon_ak47',
+    'weapon_ak74',
+    'weapon_aks74',
+    'weapon_mk47fm',
+    'weapon_m6ic',
+    'weapon_groza',
+    'weapon_scarh',
+    'weapon_katana',
+    'weapon_keyboard',
+    'weapon_shiv',
+    'weapon_sledgehammer',
+    'weapon_karambit',
+    'weapon_scarsc',
+
+    'weapon_de',
+    'weapon_hk416',
+    'weapon_mk14',
+    'weapon_m110',
+    'weapon_huntingrifle',
+    'weapon_ar15',
+    'weapon_m9',
+    'weapon_m70',
+    'weapon_uzi',
+    'weapon_mp9',
+    'weapon_mossberg',
+    'weapon_remington',
+    'weapon_mp5',
 }
 
 Config.Scanner = {
